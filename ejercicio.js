@@ -5,11 +5,11 @@ console.log('Hola usuario este codigo ud va a ingresar tres numeros');
 const datos = []
 
 let datos1 = prompt('Digite el primer numero : ');
-datos.push(datos1);
+datos.push(parseInt(datos1));
 let datos2 = prompt('Digite el segundo numero : ');
-datos.push(datos2);
+datos.push(parseInt(datos2));
 let datos3 = prompt('Digite el tercer numero : ');
-datos.push(datos3);
+datos.push(parseInt(datos3));
 
 // ahora identificamos cual numero es mayor cual es el menor y cual es de la mitad
 console.log(datos);
